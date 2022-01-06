@@ -4,9 +4,9 @@ source "https://rubygems.org"
 
 gemspec
 
-group :test do
-  gem "html-proofer","4.0.0.rc1"
-end
+# group :test do
+#   gem "html-proofer","3.19.3"
+# end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
@@ -19,3 +19,5 @@ end
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 gem "webrick", "~> 1.7"
+
+
